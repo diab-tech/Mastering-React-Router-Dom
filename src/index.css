@@ -1,0 +1,19 @@
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+a.active {
+  color: rgb(215, 18, 18) !important;
+}
+textarea {
+  margin: 0 auto;
+  width: 300px;
+  height: 200px;
+  border-radius: 4px;
+  outline: none;
+  border: 2px solid #ccc;
+}
+textarea:focus {
+  border-color: #007bff;
+}
